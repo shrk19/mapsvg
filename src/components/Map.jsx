@@ -27,12 +27,10 @@ const Map = () => {
     }, []);
 
 
-    //console.log(paths)
-
     const fillColor = () => {
         paths.forEach((p) => {
             p.addEventListener('click', (event) => {
-                console.log(p.id)
+                //console.log(p.id)
                 data.map((entry) => {
                     if (entry.region == p.id) {
 
@@ -48,7 +46,7 @@ const Map = () => {
                             color = 'red'
                         }
 
-                        console.log(dataUsage, color)
+                        //console.log(dataUsage, color)
 
                         p.style.fill = color; //here
                         const div = document.createElement('div');

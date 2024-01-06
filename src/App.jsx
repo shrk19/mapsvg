@@ -1,5 +1,5 @@
 import './App.css'
-import Map from './components/map'
+import Map from './components/Map'
 import Bar from './components/Bar'
 
 function App() {
